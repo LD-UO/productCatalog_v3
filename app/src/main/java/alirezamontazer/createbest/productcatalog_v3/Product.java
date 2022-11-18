@@ -4,18 +4,18 @@ public class Product {
 
     private String _id;
     private String _productname;
-    private int _price;
+    private double _price;
 
     public Product() {
     }
 
-    public Product(String id, String productname, int price) {
+    public Product(String id, String productname, double price) {
         _id = id;
         _productname = productname;
         _price = price;
     }
 
-    public Product(String productname, int price) {
+    public Product(String productname, double price) {
         _productname = productname;
         _price = price;
     }
@@ -40,7 +40,7 @@ public class Product {
         _price = price;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return _price;
     }
 

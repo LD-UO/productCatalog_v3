@@ -40,7 +40,7 @@ public class Product {
         _price = price;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return _price;
     }
 
